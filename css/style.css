@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(95, 59, 59);
+    font-family: 'Open Sans', sans-serif;
+    align-items: center;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagem_edcarla {
+    width: 150px;
+    transition: 400ms;
+    border-radius: 50%;
+    border: 5px solid rgb(138, 138, 138);
+    padding: 5px;
+}
+
+.titulo_principal {
+    color: white;
+    font-family: 'Oswald', sem serifa;
+    font-size: 45px;
+    
+}
+
+.subtitulo {
+    color: rgb(240, 236, 232);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+}
+
+
+button {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+    margin: 10px;    
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    background-color: rgb(163, 162, 162);
+    border-radius: 15px;
+    border: 1px solid transparent;
+    color: white;
+    transition: 400ms;
+    width: 300px;
+    height: 70px;
+
+}
+
+button:hover {
+    background-color: rgb(192, 190, 190);
+}
+
+button:active {
+    position: relative;
+    top: 2px;
+}
+
+footer {
+    color: rgb(248, 248, 248);
+    padding: 100px;
+    display: block;
+}
+
+.feito_por {
+    color: rgb(184, 135, 135);
+}
